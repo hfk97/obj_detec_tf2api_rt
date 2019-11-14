@@ -150,7 +150,7 @@ def run_inference(model):
             use_normalized_coordinates=True,
             line_thickness=8)
 
-        cv2.imshow('object detection', cv2.resize(image_np,(800,600)))
+        cv2.imshow('object detection', cv2.resize(image_np,(1280,720)))
         if cv2.waitKey(25) & 0xFF ==ord('q'):
             cv2.destroyAllWindows()
             break
