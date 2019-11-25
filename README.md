@@ -1,7 +1,10 @@
 # obj_detec_tf2api_rt
 
-This program will allow the user to run real time object detection using their webcam and TF2 API.
+<img src="./demo.png" alt="Simple example" title="Simple example" width="206" height="267" align="right" /> 
 
-Currently there are some issues regarding the package installations/setup. Use of the program as is is not recommended.
+This code deploys tensor flow 2's object detection api to identify objects in realtime. Please keep in mind that, given your computer's hardware, there will probably be sum limits as to what models you can run.
 
-Please stay posted for updates.
+Before executing main.py make sure you installed all the required files by running the bash commands in setup.sh.
+
+
+<p><em><strong>Disclaimer:</strong>This code only works on Linux/MacOS.</em></p>

@@ -158,7 +158,7 @@ def run_inference(model):
 
 def main():
     while True:
-        choice=int(input("Do you want to run a model without instance segmentation (0) or with instance segementation (1)? If you want to choose another model press (3).\nBe aware that instance segmentation is computationally intensive.\nTo exit the program choose (0): "))
+        choice=int(input("Do you want to run a model without instance segmentation (1) or with instance segementation (2)? If you want to choose another model press (3).\nBe aware that instance segmentation is computationally intensive.\nTo exit the program choose (0): "))
         if choice == 1:
             print("To end this live object detection press (q).")
             #Without instance segmentation
