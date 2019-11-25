@@ -7,4 +7,4 @@ This code deploys tensor flow 2's object detection api to identify objects in re
 Before executing main.py make sure you installed all the required files by running the bash commands in setup.sh.
 
 
-<p><em><strong>Disclaimer:</strong>This code only works on Linux/MacOS.</em></p>
+<p><em><strong>Disclaimer:</strong> This code only works on Linux/MacOS.</em></p>
